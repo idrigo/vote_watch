@@ -1,6 +1,4 @@
 # Hello
 
-{% capture includeGuts %}
-{% include plot.html %} 
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
+{%  include div.html  %}
+{%  include script.html  %}
