@@ -8,5 +8,6 @@
 layout: page
 ---
 ## Голосование по ссылке [http://vote.educom.ru/](http://vote.educom.ru/) 
-До конца голосования: {% include timer.html %}
+До конца голосования:
+{% include timer.html %}
 {% include plot.html %}
