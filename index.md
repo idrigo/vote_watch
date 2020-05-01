@@ -8,5 +8,5 @@
 layout: page
 ---
 ## Голосование по ссылке [http://vote.educom.ru/](http://vote.educom.ru/) 
-
+{% include timer.html %}
 {% include plot.html %}
