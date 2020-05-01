@@ -24,9 +24,9 @@ var end = new Date('12/05/2020 11:0 AM');
         var hours = Math.floor((distance % _day) / _hour);
         var minutes = Math.floor((distance % _hour) / _minute);
 
-        document.getElementById('countdown').innerHTML = days + 'days ';
-        document.getElementById('countdown').innerHTML += hours + 'hrs ';
-        document.getElementById('countdown').innerHTML += minutes + 'mins ';
+        document.getElementById('countdown').innerHTML = days + ' дней ';
+        document.getElementById('countdown').innerHTML += hours + ' час ';
+        document.getElementById('countdown').innerHTML += minutes + ' мин ';
     }
 
     timer = setInterval(showRemaining, 1000);
